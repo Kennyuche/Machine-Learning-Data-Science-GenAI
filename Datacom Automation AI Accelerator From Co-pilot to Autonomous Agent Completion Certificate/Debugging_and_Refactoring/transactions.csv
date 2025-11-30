@@ -1,0 +1,11 @@
+transaction_id,customer_id,amount,date,category
+T001,C001,50.00,2023-06-01,Electronics
+T002,C002,75.50,2023-06-02,Clothing
+T003,C001,120.00,2023-06-03,Electronics
+T004,C003,45.25,2023-06-04,Home
+T005,C002,99.99,2023-06-05,Electronics
+T006,C004,30.00,2023-06-06,Books
+T007,C005,85.75,2023-06-07,Clothing
+T008,C001,60.00,2023-06-08,Electronics
+T009,C003,40.00,2023-06-09,Home
+T010,C004,55.50,2023-06-10,Books

@@ -1,0 +1,12 @@
+body { font-family: Arial, sans-serif; background:#f7f7f7; color:#222; }
+.container { max-width:800px; margin:24px auto; background:#fff; padding:16px; border-radius:6px; box-shadow:0 2px 6px rgba(0,0,0,0.06); }
+h1 { margin:0 0 12px 0 }
+label { display:block; margin-top:8px }
+select, textarea { width:100%; padding:8px; margin-top:4px }
+.kudos-item { border-bottom:1px solid #eee; padding:8px 0 }
+.kudos-item .meta { font-size:0.9em; color:#555 }
+.kudos-item .msg { margin-top:6px; white-space:pre-wrap }
+.controls { margin-top:6px }
+.controls button { margin-right:8px }
+.feedback { color:green; margin-top:6px }
+.time { color:#999; font-size:0.8em; margin-left:8px }

@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Kudos Feed</title>
+    <link rel="stylesheet" href="/static/styles.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Kudos</h1>
+
+      <div id="auth">
+        <div id="login-area">
+          <label for="user-select">Choose user:</label>
+          <select id="user-select"></select>
+          <button id="login-btn">Login</button>
+        </div>
+        <div id="whoami" style="display:none;">
+          Logged in as <span id="current-user"></span>
+          <button id="logout-btn">Logout</button>
+        </div>
+      </div>
+
+      <section id="give-kudos" style="display:none;">
+        <h2>Give Kudos</h2>
+        <label for="recipient-select">Recipient:</label>
+        <select id="recipient-select"></select>
+        <label for="message">Message (max 500 chars):</label>
+        <textarea id="message" rows="3" maxlength="500"></textarea>
+        <div><button id="send-kudos">Send</button></div>
+        <div id="kudos-feedback" class="feedback"></div>
+      </section>
+
+      <section id="feed">
+        <h2>Recent Kudos</h2>
+        <div id="kudos-list"></div>
+      </section>
+    </div>
+    <script src="/static/app.js"></script>
+  </body>
+  </html>
