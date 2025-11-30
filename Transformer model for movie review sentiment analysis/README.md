@@ -49,14 +49,14 @@ This project follows these main steps:
 The model successfully learns sentiment patterns from textual data and demonstrates strong performance in classifying sentiment categories. Detailed evaluation metrics and visualizations are provided inside the notebook.
 
 
-## 👤 Author
-**Kennedy**
-
-
 ## 📌 Key Learning Outcomes
 Practical use of Transformer models for NLP
 Real-world text preprocessing workflows
 Fine-tuning deep learning models for classification
 End-to-end ML project structure for GitHub portfolios
+
+
+## 👤 Author
+**Kennedy**
 
 
