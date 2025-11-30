@@ -9,13 +9,12 @@ This project demonstrates:
 - Transformer-based model training
 - Model evaluation and performance analysis
 
----
+
 
 ## 📊 Dataset
-**The dataset used for this project is **too large to be hosted directly on GitHub**.
+**The dataset used for this project is too large to be hosted directly on GitHub**.
 **Refer to the Data description section in the .ipynb file to download dataset**
 
----
 
 ## 🧠 Model & Methodology
 This project follows these main steps:
@@ -35,7 +34,6 @@ This project follows these main steps:
 - Accuracy and loss evaluation
 - Performance analysis
 
----
 
 ## 🛠️ Technologies Used
 Python
@@ -46,11 +44,9 @@ Transformers (Hugging Face)
 TensorFlow / PyTorch (depending on your setup)
 Matplotlib / Seaborn
 
----
 
 ## 📈 Results
 The model successfully learns sentiment patterns from textual data and demonstrates strong performance in classifying sentiment categories. Detailed evaluation metrics and visualizations are provided inside the notebook.
----
 
 ## 📌 Key Learning Outcomes
 Practical use of Transformer models for NLP
@@ -58,5 +54,4 @@ Real-world text preprocessing workflows
 Fine-tuning deep learning models for classification
 End-to-end ML project structure for GitHub portfolios
 
----
 
