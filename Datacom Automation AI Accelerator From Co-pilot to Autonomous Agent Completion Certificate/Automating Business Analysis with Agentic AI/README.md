@@ -77,12 +77,12 @@ To begin exploring or extending this project:
 - Use the 3-slide summary to communicate the vision to stakeholders.
 - Prototype or integrate the agentic AI workflow into real-world systems.
 
-  [Click here to open the Business Process Reports](./Datacom%20Automation%20AI%20Accelerator%20From%20Co-pilot%20to%20Autonomous%20Agent%20Completion%20Certificate/Automating%20Business%20Analysis%20with%20Agentic%20AI/Business_process_reports.md)
-
+  [Check out the business process documentation here](./Business_process_reports.md)
 
 
 ## 🤝 Contributions
 Contributions are welcome!
 
 You can propose enhancements, automation ideas, or improvements to the AI workflow architecture.
+
 
