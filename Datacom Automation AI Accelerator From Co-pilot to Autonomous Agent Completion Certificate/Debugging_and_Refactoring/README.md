@@ -12,28 +12,29 @@ The DEBUG_LOG.md details a full debugging session covering a failure in the expo
 
 ## Root Cause
 An unsafe .keys() call on customer data during CSV field extraction caused:
-'dict' object has no attribute 'keys'
+
+ 'dict' object has no attribute 'keys'
+ 
 The error surfaced when malformed or unexpected customer records were encountered.
 
 ## Fix Implemented
-The function was refactored to:
-Use explicit, fixed fieldnames
-Add data validation checks
-Improve performance using direct dictionary lookups
-Gracefully return errors instead of crashing
+- The function was refactored to:
+- Use explicit, fixed fieldnames
+- Add data validation checks
+- Improve performance using direct dictionary lookups
+- Gracefully return errors instead of crashing
 
 ## Testing
 A dedicated test suite (TEST_CASES.py) was created to:
-Reproduce the bug
-Validate the fix
-Confirm correct behavior for malformed and valid datasets
+- Reproduce the bug
+- Validate the fix
+- Confirm correct behavior for malformed and valid datasets
 All tests now pass successfully.
 
 
-##💡 Future Improvements
-
-Add data validation for CSV schemas
-Parameterize input/output paths
-Introduce caching for metrics
-Add more robust logging (file handlers, debug levels)
-Support additional export formats (Excel, SQL)
+## 💡 Future Improvements
+- Add data validation for CSV schemas
+- Parameterize input/output paths
+- Introduce caching for metrics
+- Add more robust logging (file handlers, debug levels)
+- Support additional export formats (Excel, SQL)
