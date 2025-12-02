@@ -15,6 +15,7 @@ Each project is structured to demonstrate **end-to-end problem solving**, from d
 
 ---
 
+## 📌 Featured Projects
 - **AI-Powered Financial Chatbot**  
   Intelligent financial assistant chatbot demonstrating AI-driven customer support and decision-making.  
   🔗 [View Project](https://github.com/Kennyuche/Machine-Learning-Data-Science-GenAI/tree/main/AI-powered%20financial%20chatbot)
